@@ -130,8 +130,8 @@ Types de route : `ville`, `autoroute`, `secondaire`.
 ### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/<votre-utilisateur>/<votre-repo>.git
-cd <votre-repo>
+git clone https://github.com/bertrand-mouchel/analyse_profil_conducteur.git
+cd analyse_profil_conducteur
 ```
 
 ### 2. Créer un environnement virtuel et installer les dépendances
@@ -145,14 +145,6 @@ source .venv/bin/activate
 
 pip install streamlit pandas numpy scipy scikit-learn matplotlib seaborn
 ```
-
-### 3. (Optionnel) Générer le fichier agrégé depuis les données brutes
-
-```bash
-python src/creer_fichier_3min.py
-```
-
-Le fichier `data/summary_by_3min.csv` sera mis à jour avec les indicateurs extraits de tous les CSV présents dans `data/`.
 
 ---
 
